@@ -4,49 +4,24 @@
  <link rel="stylesheet" href="style.css">
  </head>
  <body>
- <table>
- <tr>
- <th>Nombre</th>
- <th>Apellido</th>
- <th>Identificación</th>
- <th>Empresa</th>
- </tr>
- <tr>
- <td>Nombre asistente 1</td>
- <td>Apellido asistente 1</td>
- <td>#############</td>
- <td>Nombre de la empresa</td>
- </tr>
- <tr>
- <td>Nombre asistente 2</td>
- <td>Apellido asistente 2</td>
- <td>#############</td>
- <td>Nombre de la empresa</td>
- </tr>
- <tr>
- <td>Nombre asistente 3</td>
- <td>Apellido asistente 3</td>
- <td>#############</td>
- <td>Nombre de la empresa</td>
- </tr>
- <tr>
- <th>Nombre asistente VIP</th>
- <th>Apellido asistente VIP</th>
- <th>#############</th>
- <th>Nombre de la empresa</th>
- </tr>
- <tr>
- <td>Nombre asistente 4</td>
- <td>Apellido asistente 4</td>
- <td>#############</td>
- <td>Nombre de la empresa</td>
- </tr>
- <tr>
- <th>Nombre asistente VIP</th>
- <th>Apellido asistente VIP</th>
- <th>#############</th>
- <th>Nombre de la empresa</th>
- </tr>
- </table>
+ <h1>Tu consultorio</h1>
+ <form>
+ <div>
+ <label for="mensaje">Mensaje</label><br>
+ <textarea id="mensaje"></textarea>
+ </div>
+ <div>
+ <input type='radio' id='reclamo'>
+ <label for='reclamo'>Reclamo</label>
+ <input type='radio' id='sugerencia'>
+ <label for='sugerencia'>Sugerencia</label>
+ <input type='radio' id='felicitacion'>
+ <label for='felicitacion'>Felicitación</label>
+ </div>
+ <div>
+ <input type='reset' value='Cancelar'>
+ <input type='submit' value='Guardar'>
+ </div>
+ </form>
  </body>
 </html>
